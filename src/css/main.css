@@ -1,45 +1,58 @@
 .-flex {
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .-flex.-column {
-    flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .-center {
-    justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header.-flex {
-    justify-content: center;
-    padding: 2% 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2% 0;
 }
 
 .-rounds {
-    display: flex;
-    justify-content: center;
-    padding: 2% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2% 0;
 }
 
 .-rounds button.-selected {
-    background-color: #30ED6B;
-    border: 2px solid #00C779;
+  background-color: #30ED6B;
+  border: 2px solid #00C779;
 }
 
 .-rounds button {
-    background-color: #e8e8e8;
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
-    border: 0;
-    margin: 0 10px;
+  background-color: #e8e8e8;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 0;
+  margin: 0 10px;
 }
 
-
 .hidden {
-    display: none;
+  display: none;
 }
 
 .hidden.-selected {
-    display: block;
+  display: block;
 }
+/*# sourceMappingURL=main.css.map */
